@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.navBar{
+    height: 60px;
+    background-color: #0F1111;
+  
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer #logo img{
+    height: 50px;
+    width: 114px;
+}
+.containerOfLocation{
+    display: flex;
+    flex-direction: column;
+}
+#location{
+    display: flex;
+    gap: 3px;
+}
+#searchBoxContainer{
+    display: flex;
+    height: 60px;
+    width: 600.71px;
+    gap: 0px;
+    align-items: center;
+    
+}
+#select{
+    height: 45px;
+    width: 60.5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#searchBox{
+    height: 45px;
+    width: 465.11px;
+    border-radius: 0px;
+}
+#searchIcon{
+    height: 45px;
+    width: 60px;
+    background-color: rgb(220, 143, 34);
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#signInAccount{
+    /* color: white; */
+}
+.paragraphBold{
+    font-weight: bold;
+}
+#returnOrder{
+    /* color: white; */
+}
+#cart{
+    height: 50px;
+    width: 120px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#cartImg{
+    width: 20px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 8px;
+}
+.hovver :hover{
+    border: 2px solid white;
+}
+.menuContainer{
+    width: 100%;
+    height: 39%;
+    display: flex;
+    background-color: #213052;
+    color: white;
+}
+.All{
+    display: flex;
+    gap: 4px;
+    margin-left: 5px;
+    margin-right: 10px;
+    align-items: center;
+    color: white;
+}
+.All:hover{
+    border: 1px solid white;
+}
+.deals{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+.deals a{
+    color: white;
+    text-decoration: none;
+}
+
+.deals a:hover{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+.heroImg img{
+    width: 100%;
+    height: 360px;
+
+}
+.heroImg{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+    
+
+.pAndA{
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    width: 97.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:20px;
+    margin-right:20px;
+    position: absolute;
+    top: 360px;
+}
+.foredivs{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    /* position: absolute; */
+    top: 400px;
+   justify-content: space-evenly;
+    background-color: rgb(219, 218, 218);
+
+}
+.anchor{
+    text-decoration: none;
+    color:#2355ca;
+    font-size: 16px;
+}
+.cooker{
+    height: 420px;
+    width: 323.74px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+   /* overflow: hidden; */
+   /* border-radius: 15px; */
+}
+.innerDiv{
+    display: flex;
+}
+#cookerImg{
+    height: 145px;
+    width: 360px;
+    width: 310px;
+    margin-left: 7px;
+}
+.ImgAppliances{
+    height: 75px;
+    width: 108px;
+}
+#Explore{
+    margin-bottom:0px ;
+    margin-left: 10px;
+    text-decoration: none;
+    color:#2355ca;
+    font-size: 16px;
+}
+.innerDiv2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+.innerDiv2 img{
+    width: 160px;
+    height: 102px;
+}
+.innerOfInnerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
